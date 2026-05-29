@@ -1,0 +1,83 @@
+[
+  {
+    "file": "mfp_scores.csv",
+    "bytes": 1732,
+    "sha256": "9cdbc5669e21df6114da97b8b77ddd0c2f2e3eae6cab446c26ee7bef9826b361",
+    "rows": 12
+  },
+  {
+    "file": "capillary_risk.csv",
+    "bytes": 475,
+    "sha256": "94add24cb511783d8c60010858f389b9cadaabcaa89f13a55646e4313172c5bc",
+    "rows": 12
+  },
+  {
+    "file": "candidate_opr_table.csv",
+    "bytes": 3585,
+    "sha256": "2de7f6e8586c012bdb300d242200f8a016084e6328c172af4a2db264c1a80b8d",
+    "rows": 12
+  },
+  {
+    "file": "feature_importance.csv",
+    "bytes": 616,
+    "sha256": "d4ac4a521c5b3a68107ee39e957712549cabbf7e75409f7108e5534d6197528e",
+    "rows": 7
+  },
+  {
+    "file": "uncertainty_report.csv",
+    "bytes": 2222,
+    "sha256": "6f9d62b46e9428a3bf5841f2cb1ee69574d34da63b6f47db3fb6d5cb336ffcf2",
+    "rows": 12
+  },
+  {
+    "file": "ablation_summary.csv",
+    "bytes": 782,
+    "sha256": "d7598b49d07b85d264d7f5042fa7e7fed7b51b0dfc6cd118e51d9b049ffc988a",
+    "rows": 5
+  },
+  {
+    "file": "sensitivity_summary.csv",
+    "bytes": 485,
+    "sha256": "9b9a37f518cfcd624d38da36aee055c340997139f66cfaa531c20063b2f949fb",
+    "rows": 3
+  },
+  {
+    "file": "calibration_summary.json",
+    "bytes": 455,
+    "sha256": "2f9d5bc426558eaa069ee06ae24bbc0d7b0dcc7cba577fd21527b6e166f41368",
+    "json_keys": [
+      "balanced_accuracy_demo",
+      "brier_demo",
+      "f1_demo",
+      "n_seed_records",
+      "negative_records",
+      "positive_records",
+      "precision_demo",
+      "recall_demo",
+      "scope",
+      "threshold",
+      "warning"
+    ]
+  },
+  {
+    "file": "pipeline_summary.json",
+    "bytes": 287,
+    "sha256": "b1324d8eb0b6d8b1f77f730a7b88f608f6f46ca621ec0830214b6ca13b01bc21",
+    "json_keys": [
+      "num_candidates",
+      "outputs",
+      "pipeline_scope"
+    ]
+  },
+  {
+    "file": "software_resource_diagnostics.json",
+    "bytes": 578,
+    "sha256": "0ede9f1c8b0fc53514839293c1f5739c6854dd980ed95fee083acda79a214fb3",
+    "json_keys": [
+      "ablation_scenarios",
+      "disabled_claims",
+      "scope",
+      "sensitivity_scenarios"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "scope": "synthetic-curated demonstration only; not a validated production model",
+  "threshold": 0.5,
+  "n_seed_records": 18,
+  "positive_records": 10,
+  "negative_records": 8,
+  "precision_demo": 0.588,
+  "recall_demo": 1.0,
+  "f1_demo": 0.741,
+  "balanced_accuracy_demo": 0.562,
+  "brier_demo": 0.168,
+  "warning": "These metrics are diagnostics on a synthetic-curated toy set and must not be reported as validated model performance."
+}

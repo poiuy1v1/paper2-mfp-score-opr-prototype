@@ -1,0 +1,15 @@
+{
+  "entry_point": "run_all.py",
+  "scope": "regenerates demonstration-level outputs and validates file consistency",
+  "primary_outputs": [
+    "mfp_scores.csv",
+    "candidate_opr_table.csv",
+    "feature_importance.csv",
+    "uncertainty_report.csv",
+    "ablation_summary.csv",
+    "sensitivity_summary.csv",
+    "outputs_manifest.json",
+    "checksums.json",
+    "output_validation_report.json"
+  ]
+}

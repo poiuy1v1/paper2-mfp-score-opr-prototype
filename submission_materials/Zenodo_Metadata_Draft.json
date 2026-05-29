@@ -1,0 +1,30 @@
+{
+  "title": "Supplementary Software 1: MFP-Score and OPR Reproducibility Workflow for Monolithic MOF Formation",
+  "upload_type": "software",
+  "description": "Release-ready supplementary software package accompanying the manuscript 'A Reproducible Software-Resource Workflow for AI-Guided Prediction of Monolithic Metal-Organic Framework Formation'. The package regenerates demonstration-level MFP-Score rankings, OPR suggestions, feature diagnostics, uncertainty reports, ablation/sensitivity summaries, output manifests, checksums, and validation reports.",
+  "creators": [
+    {
+      "name": "Wei, Jinnan",
+      "affiliation": "Department of Chemistry, University of Cambridge"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "metal-organic frameworks",
+    "monolithic MOFs",
+    "materials informatics",
+    "MFP-Score",
+    "OPR",
+    "reproducible workflow",
+    "Digital Discovery"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "[INSERT MANUSCRIPT DOI AFTER PUBLICATION]",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ],
+  "version": "v1.0.0",
+  "notes": "Initial MIT-licensed supplementary software release v1.0.0. Replace placeholder repository URL and DOI after GitHub-Zenodo deposition. Outputs are demonstration-level and hypothesis-generating, not experimentally validated predictions."
+}

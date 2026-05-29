@@ -1,0 +1,12 @@
+name: paper2-mfp-workflow
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - pip:
+      - pytest

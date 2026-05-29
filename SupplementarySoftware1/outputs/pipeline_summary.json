@@ -1,0 +1,12 @@
+{
+  "pipeline_scope": "synthetic-curated demonstration only",
+  "outputs": [
+    "mfp_scores.csv",
+    "capillary_risk.csv",
+    "candidate_opr_table.csv",
+    "feature_importance.csv",
+    "calibration_summary.json",
+    "uncertainty_report.csv"
+  ],
+  "num_candidates": 12
+}

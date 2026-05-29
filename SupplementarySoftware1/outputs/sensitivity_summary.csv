@@ -1,0 +1,4 @@
+scenario,top_candidate,top_score_demo,high_priority_count,medium_priority_count,low_priority_count,interpretation
+baseline_intercept,NU-1000,0.974,10,2,0,threshold and intercept sensitivity for prototype sanity checking only
+more_conservative_intercept_minus_0p5,NU-1000,0.958,9,2,1,threshold and intercept sensitivity for prototype sanity checking only
+more_permissive_intercept_plus_0p5,NU-1000,0.984,11,1,0,threshold and intercept sensitivity for prototype sanity checking only

@@ -1,0 +1,13 @@
+candidate_id,metal_node,linker_family,topology,solvent_system,modulator,modulator_concentration_m,precursor_concentration_m,temperature_c,synthesis_time_h,drying_route,pore_radius_nm,surface_tension_mN_m,contact_angle_deg,framework_stability_z
+UiO-67,Zr6,BPDC,fcu,DMF/ethanol,formic acid,2.3,0.09,100,36,ethanol_exchange_slow_dry,22,22.0,38,0.89
+MOF-801,Zr6,fumarate,fcu,water/DMF,acetic acid,1.6,0.08,90,18,ethanol_exchange_slow_dry,15,22.0,40,0.82
+MOF-808,Zr6,BTC,spn,DMF/formic,formic acid,3.0,0.09,100,20,supercritical_CO2,25,22.0,35,0.84
+NU-1000,Zr6,TBAPy,csq,DMF/formic,formic acid,2.1,0.06,100,48,supercritical_CO2,30,22.0,42,0.86
+PCN-222,Zr6,TCPP,csq,DMF/benzoic,benzoic acid,1.2,0.05,110,36,ethanol_exchange_slow_dry,26,22.0,45,0.83
+MIL-100(Fe),Fe trimer,BTC,mtm,water,HNO3,0.5,0.14,150,12,solvent_exchange_slow_dry,16,22.0,50,0.78
+MIL-101(Cr),Cr trimer,BDC,mtm,water/HF,HF,0.2,0.18,180,8,solvent_exchange_slow_dry,12,22.0,55,0.76
+Mg-MOF-74,Mg chain,DOBDC,rod,DMF/ethanol,none,0.0,0.07,110,24,solvent_exchange_slow_dry,5,22.0,60,0.65
+HKUST-1,Cu paddlewheel,BTC,tbo,ethanol/water,none,0.0,0.12,60,48,ambient_slow_dry,28,22.1,30,0.72
+ZIF-8,Zn imidazolate,2-mIm,sod,methanol/water,polymer scaffold,0.8,0.1,25,12,ambient_slow_dry,20,22.6,35,0.68
+CAU-10,Al chain,isophthalate,chain,water,none,0.0,0.1,150,10,oven_dry,6,72.0,60,0.74
+MOF-5,Zn4O,BDC,pcu,DEF,none,0.0,0.05,100,24,oven_dry,8,24.0,65,0.3

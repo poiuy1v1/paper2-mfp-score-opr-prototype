@@ -1,0 +1,10 @@
+feature,type,unit,description
+modulator_concentration_m,continuous,M,Higher modulator concentration can slow nucleation and support gel window up to saturation risk.
+precursor_concentration_m,continuous,M,Intermediate concentration favours network formation; too low favours isolated crystals.
+temperature_c,continuous,C,Moderate temperatures balance nucleation and aggregation; very high values can favor powder/ripening.
+synthesis_time_h,continuous,h,"Longer times can support gel aging, but may also allow recrystallization."
+drying_route,categorical,route,Supercritical or slow exchange drying reduces capillary collapse risk.
+pore_radius_nm,continuous,nm,Larger meso/interparticle pores reduce capillary pressure in the Young-Laplace heuristic.
+surface_tension_mN_m,continuous,mN/m,Lower surface tension reduces drying stress.
+contact_angle_deg,continuous,degree,Contact angle modulates cos(theta) in capillary pressure.
+framework_stability_z,continuous,unitless,Expert descriptor for hydrolytic/mechanical framework stability.

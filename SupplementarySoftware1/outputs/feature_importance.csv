@@ -1,0 +1,8 @@
+feature,absolute_weight,relative_importance_demo,interpretation
+drying_route_score,1.35,0.189,"expert-weighted prototype diagnostic, not SHAP"
+framework_stability_z,1.2,0.168,"expert-weighted prototype diagnostic, not SHAP"
+capillary_safety,1.15,0.161,"expert-weighted prototype diagnostic, not SHAP"
+precursor_window,1.1,0.154,"expert-weighted prototype diagnostic, not SHAP"
+modulator_window,1.0,0.14,"expert-weighted prototype diagnostic, not SHAP"
+temperature_window,0.75,0.105,"expert-weighted prototype diagnostic, not SHAP"
+pore_radius_score,0.6,0.084,"expert-weighted prototype diagnostic, not SHAP"

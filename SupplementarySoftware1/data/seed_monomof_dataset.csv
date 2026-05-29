@@ -1,0 +1,19 @@
+record_id,metal_node,linker_family,topology,solvent_system,modulator,modulator_concentration_m,precursor_concentration_m,temperature_c,synthesis_time_h,drying_route,pore_radius_nm,surface_tension_mN_m,contact_angle_deg,framework_stability_z,label_monolith,evidence_type,reference_note
+monoUiO66_formic_aerogel,Zr6,BDC,fcu,DMF/water,formic acid,2.0,0.11,120,24,supercritical_CO2,18,22.0,35,0.92,1,curated_demo,Zr-MOF gel/monolith literature-inspired demonstration
+UiO66_acetic_powder,Zr6,BDC,fcu,DMF,acetic acid,0.5,0.05,120,24,oven_dry,7,24.0,45,0.88,0,synthetic_negative,lower modulator concentration and small pores assigned as non-monolithic demo
+UiO67_formic_monolith,Zr6,BPDC,fcu,DMF/ethanol,formic acid,2.5,0.1,100,36,solvent_exchange_slow_dry,22,22.0,38,0.89,1,synthetic_curated_positive,UiO-67-like candidate scaffold for OPR demonstration
+MOF801_acetic_gel,Zr6,fumarate,fcu,water/DMF,acetic acid,1.5,0.08,90,18,ethanol_exchange_slow_dry,15,22.0,40,0.82,1,curated_demo,MOF-801 gel/monolith family demonstration
+MOF808_formic_gel,Zr6,BTC,spn,DMF/formic,formic acid,3.0,0.09,100,20,supercritical_CO2,25,22.0,35,0.84,1,curated_demo,MOF-808 gel route demonstration
+HKUST1_ethanol_monolith,Cu paddlewheel,BTC,tbo,ethanol/water,none,0.0,0.12,60,48,ambient_slow_dry,28,22.1,30,0.72,1,curated_demo,Cu-BTC monolith/gel demonstration
+MIL101_fast_precipitate,Cr trimer,BDC,mtm,water/HF,HF,0.2,0.18,180,8,oven_dry,9,72.0,55,0.76,0,synthetic_negative,fast nucleation and drying risk demonstration
+MOF74_mg_powder,Mg chain,DOBDC,rod,DMF/ethanol,none,0.0,0.07,110,24,oven_dry,5,24.0,60,0.65,0,synthetic_negative,narrow channels and drying sensitivity demonstration
+NU1000_formic_aerogel,Zr6,TBAPy,csq,DMF/formic,formic acid,2.0,0.06,100,48,supercritical_CO2,30,22.0,42,0.86,1,synthetic_curated_positive,large Zr6 pyrene MOF candidate
+PCN222_benzoic_gel,Zr6,TCPP,csq,DMF/benzoic,benzoic acid,1.2,0.05,110,36,ethanol_exchange_slow_dry,26,22.0,45,0.83,1,synthetic_curated_positive,porphyrinic Zr-MOF candidate
+ZIF8_methanol_powder,Zn imidazolate,2-mIm,sod,methanol,none,0.0,0.15,25,6,ambient_fast_dry,6,22.6,55,0.7,0,synthetic_negative,fast crystallization powder demo
+ZIF8_composite_monolith,Zn imidazolate,2-mIm,sod,methanol/water,polymer scaffold,0.8,0.1,25,12,ambient_slow_dry,20,22.6,35,0.68,1,curated_demo,composite monolith route demonstration
+MIL100_fe_gel,Fe trimer,BTC,mtm,water,HNO3,0.5,0.14,150,12,solvent_exchange_slow_dry,16,22.0,50,0.78,1,synthetic_curated_positive,Fe trimesate gel-like route demo
+CAU10_powder,Al chain,isophthalate,chain,water,none,0.0,0.1,150,10,oven_dry,6,72.0,60,0.74,0,synthetic_negative,powder-only route demonstration
+MOF5_powder_fragile,Zn4O,BDC,pcu,DEF,none,0.0,0.05,100,24,oven_dry,8,24.0,65,0.3,0,synthetic_negative,moisture/mechanical fragility demonstration
+IRMOF3_powder,Zn4O,amino-BDC,pcu,DEF,none,0.0,0.05,100,24,oven_dry,8,24.0,65,0.35,0,synthetic_negative,functionalized MOF-5 family powder demo
+UiO66_NH2_gel,Zr6,amino-BDC,fcu,DMF/formic,formic acid,2.2,0.1,100,24,ethanol_exchange_slow_dry,17,22.0,38,0.86,1,synthetic_curated_positive,functional UiO-66 gel route demo
+UiO66_br_powder,Zr6,bromo-BDC,fcu,DMF,HCl,0.1,0.08,120,16,oven_dry,7,24.0,55,0.8,0,synthetic_negative,small-pore high-stress drying demo

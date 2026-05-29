@@ -1,0 +1,13 @@
+candidate_id,mfp_score_demo,drying_risk_class,uncertainty_class,reason,disabled_claims_until_validated
+NU-1000,0.974,low,low,synthetic feature values; requires curated literature extraction and experimental validation,"accuracy, SHAP percentages, final OPR, synthesis success"
+UiO-67,0.970,low,low,synthetic feature values; requires curated literature extraction and experimental validation,"accuracy, SHAP percentages, final OPR, synthesis success"
+MOF-808,0.967,low,low,synthetic feature values; requires curated literature extraction and experimental validation,"accuracy, SHAP percentages, final OPR, synthesis success"
+MOF-801,0.956,low,low,synthetic feature values; requires curated literature extraction and experimental validation,"accuracy, SHAP percentages, final OPR, synthesis success"
+PCN-222,0.950,low,low,synthetic feature values; requires curated literature extraction and experimental validation,"accuracy, SHAP percentages, final OPR, synthesis success"
+HKUST-1,0.887,low,low,synthetic feature values; requires curated literature extraction and experimental validation,"accuracy, SHAP percentages, final OPR, synthesis success"
+MIL-100(Fe),0.879,low,low,synthetic feature values; requires curated literature extraction and experimental validation,"accuracy, SHAP percentages, final OPR, synthesis success"
+ZIF-8,0.872,low,low,synthetic feature values; requires curated literature extraction and experimental validation,"accuracy, SHAP percentages, final OPR, synthesis success"
+Mg-MOF-74,0.830,medium,medium,synthetic feature values; requires curated literature extraction and experimental validation,"accuracy, SHAP percentages, final OPR, synthesis success"
+MIL-101(Cr),0.732,low,medium,synthetic feature values; requires curated literature extraction and experimental validation,"accuracy, SHAP percentages, final OPR, synthesis success"
+MOF-5,0.597,low,medium,synthetic feature values; requires curated literature extraction and experimental validation,"accuracy, SHAP percentages, final OPR, synthesis success"
+CAU-10,0.500,high,high,synthetic feature values; requires curated literature extraction and experimental validation,"accuracy, SHAP percentages, final OPR, synthesis success"

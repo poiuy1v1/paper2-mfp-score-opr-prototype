@@ -1,0 +1,104 @@
+﻿# Package contents summary (v1.0.0)
+
+This package contains the manuscript files, Supplementary Software 1, release/DOI/license materials, TOC/graphical abstract files, and audit documentation.
+
+## Key files
+
+- README.md
+- LICENSE
+- CITATION.cff
+- .zenodo.json
+- .gitignore
+- RELEASE_NOTES_v1.0.0.md
+- SupplementarySoftware1/run_all.py
+- SupplementarySoftware1/validate_outputs.py
+- SupplementarySoftware1/LICENSE
+- SupplementarySoftware1/CITATION.cff
+- SupplementarySoftware1/zenodo_metadata_draft.json
+- SupplementarySoftware1/outputs/release_v1.0.0_run_all.log
+- SupplementarySoftware1/outputs/release_v1.0.0_validate_outputs.log
+- submission_materials/GitHub_Zenodo_Release_Checklist.md
+- submission_materials/Repository_DOI_Insertion_Map.md
+
+## Complete file list
+
+- .gitignore (344 bytes)
+- .zenodo.json (1368 bytes)
+- audit/github_ready_run_all.err (0 bytes)
+- audit/github_ready_run_all.log (4824 bytes)
+- audit/github_ready_validate_outputs.err (0 bytes)
+- audit/github_ready_validate_outputs.log (2550 bytes)
+- audit/MIT_License_Confirmed_Audit_v18.md (1005 bytes)
+- audit/run_all_v18.log (4830 bytes)
+- audit/v17_validation_summary.json (156 bytes)
+- audit/validate_outputs_v18.log (2550 bytes)
+- CITATION.cff (720 bytes)
+- FILE_TREE.txt (3568 bytes)
+- LICENSE (1067 bytes)
+- MANIFEST_FOR_REVIEWERS.md (1398 bytes)
+- manuscript/paper2_v18_MITLicenseConfirmedReleaseReady_QC.pdf (336568 bytes)
+- manuscript/paper2_v18_MITLicenseConfirmedReleaseReady_QC.tex (106908 bytes)
+- manuscript/rsc-paper2_v18_MITLicenseConfirmedReleaseReady_QC.bib (253 bytes)
+- PACKAGE_CONTENTS.md (5368 bytes)
+- PUSH_TO_GITHUB_FROM_D_DRIVE.md (873 bytes)
+- README.md (2034 bytes)
+- README_v1.0.0_package_note.md (718 bytes)
+- RELEASE_NOTES_v1.0.0.md (581 bytes)
+- SOFTWARE_FILE_INDEX.md (1342 bytes)
+- submission_materials/DOI_Backfill_Checklist_After_Zenodo.md (657 bytes)
+- submission_materials/Final_Data_Code_Availability_With_Placeholders.md (971 bytes)
+- submission_materials/GitHub_Zenodo_Release_Checklist.md (1184 bytes)
+- submission_materials/GitHub_Zenodo_Release_Commands_v1.0.0.md (999 bytes)
+- submission_materials/Repository_DOI_Finalization_Instructions.md (824 bytes)
+- submission_materials/Repository_DOI_Insertion_Map.md (621 bytes)
+- submission_materials/Software_License_Finalization_Note.md (451 bytes)
+- submission_materials/Software_License_Selected_MIT_Confirmed.md (624 bytes)
+- submission_materials/TOC_Graphical_Abstract.jpg (240850 bytes)
+- submission_materials/TOC_Graphical_Abstract.png (102049 bytes)
+- submission_materials/TOC_Graphical_Abstract.svg (4258 bytes)
+- submission_materials/Zenodo_Metadata_Draft.json (1343 bytes)
+- SupplementarySoftware1/CITATION.cff (720 bytes)
+- SupplementarySoftware1/data/candidate_powder_mofs.csv (1416 bytes)
+- SupplementarySoftware1/data/feature_dictionary.csv (1043 bytes)
+- SupplementarySoftware1/data/seed_monomof_dataset.csv (3267 bytes)
+- SupplementarySoftware1/environment.yml (163 bytes)
+- SupplementarySoftware1/LICENSE (1067 bytes)
+- SupplementarySoftware1/LICENSE_NOTE.md (448 bytes)
+- SupplementarySoftware1/notebooks/mfp_score_demo.ipynb (1819 bytes)
+- SupplementarySoftware1/outputs/ablation_summary.csv (782 bytes)
+- SupplementarySoftware1/outputs/calibration_summary.json (455 bytes)
+- SupplementarySoftware1/outputs/candidate_opr_table.csv (3585 bytes)
+- SupplementarySoftware1/outputs/capillary_risk.csv (475 bytes)
+- SupplementarySoftware1/outputs/checksums.json (974 bytes)
+- SupplementarySoftware1/outputs/feature_importance.csv (616 bytes)
+- SupplementarySoftware1/outputs/mfp_scores.csv (1732 bytes)
+- SupplementarySoftware1/outputs/output_validation_report.json (2643 bytes)
+- SupplementarySoftware1/outputs/output_validation_report.md (884 bytes)
+- SupplementarySoftware1/outputs/outputs_manifest.json (2137 bytes)
+- SupplementarySoftware1/outputs/pipeline_summary.json (287 bytes)
+- SupplementarySoftware1/outputs/release_v1.0.0_run_all.log (9990 bytes)
+- SupplementarySoftware1/outputs/release_v1.0.0_validate_outputs.log (5292 bytes)
+- SupplementarySoftware1/outputs/run_all_stderr.txt (0 bytes)
+- SupplementarySoftware1/outputs/run_all_stdout.txt (4830 bytes)
+- SupplementarySoftware1/outputs/run_all_summary.json (419 bytes)
+- SupplementarySoftware1/outputs/sensitivity_summary.csv (485 bytes)
+- SupplementarySoftware1/outputs/software_resource_diagnostics.json (578 bytes)
+- SupplementarySoftware1/outputs/uncertainty_report.csv (2222 bytes)
+- SupplementarySoftware1/outputs/validate_stderr.txt (0 bytes)
+- SupplementarySoftware1/outputs/validate_stdout.txt (2550 bytes)
+- SupplementarySoftware1/README.md (3050 bytes)
+- SupplementarySoftware1/REPRODUCIBILITY.md (1784 bytes)
+- SupplementarySoftware1/REPRODUCIBILITY_CHECKLIST.md (663 bytes)
+- SupplementarySoftware1/requirements.txt (260 bytes)
+- SupplementarySoftware1/REVIEWER_QUICKSTART.md (1416 bytes)
+- SupplementarySoftware1/run_all.py (1390 bytes)
+- SupplementarySoftware1/schemas/synthesis_extraction_schema.json (2091 bytes)
+- SupplementarySoftware1/scripts/candidate_ranking.py (2479 bytes)
+- SupplementarySoftware1/scripts/capillary_stress_calculator.py (2656 bytes)
+- SupplementarySoftware1/scripts/mfp_score_baseline.py (6526 bytes)
+- SupplementarySoftware1/scripts/opr_optimizer.py (3585 bytes)
+- SupplementarySoftware1/scripts/sensitivity_ablation.py (5554 bytes)
+- SupplementarySoftware1/SOFTWARE_RESOURCE_SUMMARY.md (1171 bytes)
+- SupplementarySoftware1/validate_outputs.py (6097 bytes)
+- SupplementarySoftware1/zenodo_metadata_draft.json (1368 bytes)
+- ZIP_README_FOR_REVIEWERS.md (1024 bytes)

@@ -1,0 +1,13 @@
+candidate_id,metal_node,linker_family,topology,mfp_score_demo,priority_class,capillary_pressure_mpa,drying_risk_class,drying_route,framework_stability_z,feature_modulator_window,feature_precursor_window,feature_temperature_window,feature_drying_route_score,feature_capillary_safety,feature_pore_radius_score,feature_framework_stability_z
+NU-1000,Zr6,TBAPy,csq,0.974,high,1.090,low,supercritical_CO2,0.86,0.996,0.768,1.000,1.000,0.909,1.000,0.860
+UiO-67,Zr6,BPDC,fcu,0.970,high,1.576,low,ethanol_exchange_slow_dry,0.89,0.963,0.984,1.000,0.860,0.869,0.733,0.890
+MOF-808,Zr6,BTC,spn,0.967,high,1.442,low,supercritical_CO2,0.84,0.662,0.984,1.000,1.000,0.880,0.833,0.840
+MOF-801,Zr6,fumarate,fcu,0.956,high,2.247,low,ethanol_exchange_slow_dry,0.82,0.936,0.936,0.976,0.860,0.813,0.500,0.820
+PCN-222,Zr6,TCPP,csq,0.950,high,1.197,low,ethanol_exchange_slow_dry,0.83,0.768,0.662,0.976,0.860,0.900,0.867,0.830
+HKUST-1,Cu paddlewheel,BTC,tbo,0.887,high,1.367,low,ambient_slow_dry,0.72,0.191,0.936,0.674,0.660,0.886,0.933,0.720
+MIL-100(Fe),Fe trimer,BTC,mtm,0.879,high,1.768,low,solvent_exchange_slow_dry,0.78,0.395,0.768,0.539,0.820,0.853,0.533,0.780
+ZIF-8,Zn imidazolate,2-mIm,sod,0.872,high,1.851,low,ambient_slow_dry,0.68,0.552,1.000,0.249,0.660,0.846,0.667,0.680
+Mg-MOF-74,Mg chain,DOBDC,rod,0.830,high,4.400,medium,solvent_exchange_slow_dry,0.65,0.191,0.862,0.976,0.820,0.633,0.167,0.650
+MIL-101(Cr),Cr trimer,BDC,mtm,0.732,high,2.103,low,solvent_exchange_slow_dry,0.76,0.262,0.347,0.206,0.820,0.825,0.400,0.760
+MOF-5,Zn4O,BDC,pcu,0.597,medium,2.536,low,oven_dry,0.3,0.191,0.662,1.000,0.220,0.789,0.267,0.300
+CAU-10,Al chain,isophthalate,chain,0.500,medium,12.000,high,oven_dry,0.74,0.191,1.000,0.539,0.220,0.000,0.200,0.740

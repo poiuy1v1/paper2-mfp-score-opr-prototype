@@ -1,0 +1,13 @@
+candidate_id,pore_radius_nm,surface_tension_mN_m,contact_angle_deg,capillary_pressure_mpa,drying_risk_class
+UiO-67,22,22.0,38,1.576,low
+MOF-801,15,22.0,40,2.247,low
+MOF-808,25,22.0,35,1.442,low
+NU-1000,30,22.0,42,1.090,low
+PCN-222,26,22.0,45,1.197,low
+MIL-100(Fe),16,22.0,50,1.768,low
+MIL-101(Cr),12,22.0,55,2.103,low
+Mg-MOF-74,5,22.0,60,4.400,medium
+HKUST-1,28,22.1,30,1.367,low
+ZIF-8,20,22.6,35,1.851,low
+CAU-10,6,72.0,60,12.000,high
+MOF-5,8,24.0,65,2.536,low

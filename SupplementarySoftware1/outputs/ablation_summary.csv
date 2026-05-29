@@ -1,0 +1,6 @@
+scenario,top_candidate,top_score_demo,mean_absolute_rank_shift_vs_baseline,interpretation
+baseline_all_features,NU-1000,0.974,0.000,lightweight ablation for software sanity checking; not a validated mechanistic attribution
+remove_drying_route_score,UiO-67,0.909,0.500,lightweight ablation for software sanity checking; not a validated mechanistic attribution
+remove_capillary_safety,NU-1000,0.929,0.167,lightweight ablation for software sanity checking; not a validated mechanistic attribution
+remove_framework_stability_z,NU-1000,0.930,0.167,lightweight ablation for software sanity checking; not a validated mechanistic attribution
+remove_process_window_features,NU-1000,0.736,1.000,lightweight ablation for software sanity checking; not a validated mechanistic attribution

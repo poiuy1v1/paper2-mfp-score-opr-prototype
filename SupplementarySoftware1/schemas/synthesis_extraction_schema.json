@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MOF Synthesis Extraction Schema for monoMOF MFP Prototype",
+  "description": "Schema for converting synthesis text into structured MFP-Score input features. This schema is synthetic and intended for reproducibility demonstration, not autonomous extraction validation.",
+  "type": "object",
+  "required": [
+    "mof_id",
+    "metal_node",
+    "linker",
+    "solvent_system",
+    "modulator",
+    "temperature_c",
+    "synthesis_time_h",
+    "drying_route",
+    "evidence_sentence"
+  ],
+  "properties": {
+    "mof_id": {
+      "type": "string"
+    },
+    "metal_node": {
+      "type": "string"
+    },
+    "linker": {
+      "type": "string"
+    },
+    "topology": {
+      "type": "string"
+    },
+    "solvent_system": {
+      "type": "string"
+    },
+    "modulator": {
+      "type": "string"
+    },
+    "modulator_concentration_m": {
+      "type": "number",
+      "minimum": 0
+    },
+    "precursor_concentration_m": {
+      "type": "number",
+      "minimum": 0
+    },
+    "temperature_c": {
+      "type": "number"
+    },
+    "synthesis_time_h": {
+      "type": "number",
+      "minimum": 0
+    },
+    "gelation_observed": {
+      "type": "boolean"
+    },
+    "monolith_observed": {
+      "type": "boolean"
+    },
+    "drying_route": {
+      "type": "string",
+      "enum": [
+        "oven_dry",
+        "ambient_fast_dry",
+        "ambient_slow_dry",
+        "ethanol_exchange_slow_dry",
+        "solvent_exchange_slow_dry",
+        "supercritical_CO2",
+        "freeze_dry",
+        "unknown"
+      ]
+    },
+    "pore_radius_nm": {
+      "type": "number",
+      "minimum": 0
+    },
+    "surface_tension_mN_m": {
+      "type": "number",
+      "minimum": 0
+    },
+    "contact_angle_deg": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 180
+    },
+    "framework_stability_z": {
+      "type": "number"
+    },
+    "evidence_sentence": {
+      "type": "string"
+    },
+    "source_doi": {
+      "type": "string"
+    },
+    "source_note": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

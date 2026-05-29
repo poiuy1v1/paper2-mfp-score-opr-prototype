@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900">
+<rect width="1800" height="900" fill="white"/>
+<text x="80" y="85" font-family="DejaVu Sans, Arial" font-weight="bold" font-size="52" fill="#142846">Reproducible MFP-Score / OPR workflow for monoMOF prioritization</text>
+<rect x="70" y="210" width="300" height="180" rx="25" fill="#e5f2ff" stroke="#325078" stroke-width="3"/>
+<text x="220.0" y="282" font-family="DejaVu Sans, Arial" font-weight="bold" font-size="34" fill="#0f2841" text-anchor="middle">Literature &</text>
+<text x="220.0" y="324" font-family="DejaVu Sans, Arial" font-weight="bold" font-size="34" fill="#0f2841" text-anchor="middle">structured data</text>
+<text x="220.0" y="396" font-family="DejaVu Sans, Arial" font-size="26" fill="#46505a" text-anchor="middle">synthetic-curated</text>
+<text x="220.0" y="428" font-family="DejaVu Sans, Arial" font-size="26" fill="#46505a" text-anchor="middle">demo inputs</text>
+<rect x="430" y="210" width="300" height="180" rx="25" fill="#e8f5e9" stroke="#325078" stroke-width="3"/>
+<text x="580.0" y="282" font-family="DejaVu Sans, Arial" font-weight="bold" font-size="34" fill="#0f2841" text-anchor="middle">Feature encoding</text>
+<text x="580.0" y="354" font-family="DejaVu Sans, Arial" font-size="26" fill="#46505a" text-anchor="middle">chemistry + process</text>
+<text x="580.0" y="386" font-family="DejaVu Sans, Arial" font-size="26" fill="#46505a" text-anchor="middle">+ drying descriptors</text>
+<rect x="790" y="210" width="300" height="180" rx="25" fill="#fff8e1" stroke="#325078" stroke-width="3"/>
+<text x="940.0" y="282" font-family="DejaVu Sans, Arial" font-weight="bold" font-size="34" fill="#0f2841" text-anchor="middle">MFP-Score</text>
+<text x="940.0" y="354" font-family="DejaVu Sans, Arial" font-size="26" fill="#46505a" text-anchor="middle">transparent</text>
+<text x="940.0" y="386" font-family="DejaVu Sans, Arial" font-size="26" fill="#46505a" text-anchor="middle">ranking output</text>
+<rect x="1150" y="210" width="300" height="180" rx="25" fill="#f5eeff" stroke="#325078" stroke-width="3"/>
+<text x="1300.0" y="282" font-family="DejaVu Sans, Arial" font-weight="bold" font-size="34" fill="#0f2841" text-anchor="middle">OPR suggestion</text>
+<text x="1300.0" y="354" font-family="DejaVu Sans, Arial" font-size="26" fill="#46505a" text-anchor="middle">hypothesis-generating</text>
+<text x="1300.0" y="386" font-family="DejaVu Sans, Arial" font-size="26" fill="#46505a" text-anchor="middle">processing windows</text>
+<rect x="1510" y="210" width="230" height="180" rx="25" fill="#ffebee" stroke="#325078" stroke-width="3"/>
+<text x="1625.0" y="282" font-family="DejaVu Sans, Arial" font-weight="bold" font-size="34" fill="#0f2841" text-anchor="middle">Uncertainty</text>
+<text x="1625.0" y="354" font-family="DejaVu Sans, Arial" font-size="26" fill="#46505a" text-anchor="middle">validation flags</text>
+<text x="1625.0" y="386" font-family="DejaVu Sans, Arial" font-size="26" fill="#46505a" text-anchor="middle">+ limits</text>
+<line x1="388" y1="300" x2="412" y2="300" stroke="#3c5a82" stroke-width="6"/>
+<polygon points="412,300 390,286 390,314" fill="#3c5a82"/>
+<line x1="748" y1="300" x2="772" y2="300" stroke="#3c5a82" stroke-width="6"/>
+<polygon points="772,300 750,286 750,314" fill="#3c5a82"/>
+<line x1="1108" y1="300" x2="1132" y2="300" stroke="#3c5a82" stroke-width="6"/>
+<polygon points="1132,300 1110,286 1110,314" fill="#3c5a82"/>
+<line x1="1468" y1="300" x2="1492" y2="300" stroke="#3c5a82" stroke-width="6"/>
+<polygon points="1492,300 1470,286 1470,314" fill="#3c5a82"/>
+<rect x="270" y="595" width="1260" height="165" rx="30" fill="#f5f7fa" stroke="#788296" stroke-width="2"/>
+<text x="320" y="660" font-family="DejaVu Sans, Arial" font-weight="bold" font-size="34" fill="#142846">Reviewer-runnable Supplementary Software 1</text>
+<text x="320" y="716" font-family="DejaVu Sans, Arial" font-size="26" fill="#3c4650">run_all.py  →  validate_outputs.py  →  manifests + checksums  →  manuscript Tables 1/2</text>
+<text x="240" y="848" font-family="DejaVu Sans, Arial" font-size="26" fill="#7d2d2d">Boundary: demonstration-level prioritization, not experimentally validated synthesis or completed DFT/MD.</text>
+</svg>

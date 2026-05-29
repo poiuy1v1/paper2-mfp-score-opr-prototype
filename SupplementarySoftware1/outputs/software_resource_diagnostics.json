@@ -1,0 +1,21 @@
+{
+  "scope": "software/resource validation diagnostics only",
+  "ablation_scenarios": [
+    "baseline_all_features",
+    "remove_drying_route_score",
+    "remove_capillary_safety",
+    "remove_framework_stability_z",
+    "remove_process_window_features"
+  ],
+  "sensitivity_scenarios": [
+    "baseline_intercept",
+    "more_conservative_intercept_minus_0p5",
+    "more_permissive_intercept_plus_0p5"
+  ],
+  "disabled_claims": [
+    "validated feature attribution",
+    "SHAP percentages",
+    "experimental success",
+    "production predictor accuracy"
+  ]
+}
