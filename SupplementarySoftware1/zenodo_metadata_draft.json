@@ -18,13 +18,6 @@
     "reproducible workflow",
     "Digital Discovery"
   ],
-  "related_identifiers": [
-    {
-      "identifier": "[INSERT MANUSCRIPT DOI AFTER PUBLICATION]",
-      "relation": "isSupplementTo",
-      "scheme": "doi"
-    }
-  ],
-  "version": "v1.0.0",
-  "notes": "Initial MIT-licensed supplementary software release v1.0.0. Replace placeholder repository URL and DOI after GitHub-Zenodo deposition. Software license is MIT. Outputs are demonstration-level and hypothesis-generating, not experimentally validated predictions."
+  "version": "v1.0.1",
+  "notes": "MIT-licensed supplementary software release v1.0.1. Software license is MIT. Outputs are demonstration-level and hypothesis-generating, not experimentally validated predictions."
 }

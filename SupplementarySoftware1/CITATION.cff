@@ -4,9 +4,8 @@ title: "Supplementary Software 1: MFP-Score and OPR Reproducibility Workflow for
 authors:
   - family-names: "Wei"
     given-names: "Jinnan"
-version: "v1.0.0"
-date-released: "2026-05-18"
+version: "v1.0.1"
+date-released: "2026-05-29"
 license: "MIT"
-repository-code: "https://github.com/USERNAME/paper2-monomof-mfp-opr-workflow"
-doi: "10.5281/zenodo.XXXXXXX"
-abstract: "Reviewer-runnable demonstration workflow for synthetic-curated MFP-Score ranking and hypothesis-generating OPR route generation. Repository URL and DOI remain placeholders until the final GitHub/Zenodo release is created; software license is MIT."
+repository-code: "https://github.com/poiuy1v1/paper2-mfp-score-opr-prototype"
+abstract: "Reviewer-runnable demonstration workflow for synthetic-curated MFP-Score ranking and hypothesis-generating OPR route generation. The software license is MIT; the Zenodo DOI is intentionally omitted until Zenodo mints the archived release DOI."
