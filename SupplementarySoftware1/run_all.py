@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One-command reproducibility entry point for Paper 2 Supplementary Software 1."""
+"""One-command reproducibility entry point for Supplementary Software 1 for the accompanying manuscript."""
 from __future__ import annotations
 
 import json

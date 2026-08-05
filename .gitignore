@@ -34,3 +34,8 @@ v*/
 *.synctex.gz
 
 # Keep generated output CSV/JSON files under version control for reviewer reproducibility.
+
+# Added for v29A.2 release integration
+*.tmp
+_release_input/
+_release_work/

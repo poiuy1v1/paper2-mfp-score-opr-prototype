@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Young-Laplace style capillary stress calculator for the Paper 2 v7 prototype.
+"""Young-Laplace style capillary stress calculator for Supplementary Software 1.
 
 This is a heuristic drying-risk layer for synthetic monoMOF candidate ranking. It is
 not a molecular simulation, DFT calculation, MD workflow, or experimentally

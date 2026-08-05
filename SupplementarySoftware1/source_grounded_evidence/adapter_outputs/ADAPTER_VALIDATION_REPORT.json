@@ -1,0 +1,13 @@
+{
+  "validation_scope": "Layer-A schema and projection-readiness only; no scoring",
+  "status": "PASS",
+  "record_count": 49,
+  "layer_A_valid_count": 49,
+  "condition_unit_valid_count": 49,
+  "scoring_admitted_count": 0,
+  "synthetic_imputation_count": 0,
+  "derived_field_request_count": 0,
+  "errors": [],
+  "warnings": [],
+  "hard_stop": "No MFP or OPR scoring is called in the current evidence release."
+}

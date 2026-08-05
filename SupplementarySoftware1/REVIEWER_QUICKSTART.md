@@ -1,41 +1,44 @@
-# Reviewer quick-start guide
+# Reviewer quick-start
 
-This guide is intended for a referee or editor who wants to check that the manuscript-facing outputs can be regenerated from the Supplementary Software 1 package.
+Run from `SupplementarySoftware1/`.
 
-## Minimal reproduction command
-
-From the `SupplementarySoftware1/` directory, run:
+## 1. Synthetic-curated demonstration
 
 ```bash
 python3 run_all.py
 ```
 
-This command regenerates the MFP-score table, OPR table, capillary-risk table, uncertainty report, ablation and sensitivity summaries, manifest, checksums, and validation report.
+Expected: `Validation status: PASS`, `Errors: []`, `Warnings: []`.
 
-## Expected result
+## 2. Source-grounded descriptive tables
 
-The expected validator status is:
-
-```text
-PASS
+```bash
+python3 source_grounded_evidence/run_evidence_tables.py
 ```
 
-The validator writes:
+Expected validation file:
 
-- `outputs/output_validation_report.json`
-- `outputs/output_validation_report.md`
-- `outputs/outputs_manifest.json`
-- `outputs/checksums.json`
-- `outputs/run_all_summary.json`
+```text
+source_grounded_evidence/outputs/table_generator_validation.json
+```
 
-## What this proves
+It must report 49 registry rows, nine primary sources, zero MFP scores, zero OPR rankings, no classifier training and no synthetic imputation.
 
-The quick-start run checks file existence, required columns, score ranges, candidate-set consistency, JSON validity, output hashes, and manuscript-output traceability.
+## 3. Projection-readiness adapter
 
-## What this does not prove
+```bash
+python3 source_grounded_evidence/scripts/registry_to_model_projection_adapter.py \
+  source_grounded_evidence/data/AUTHORITATIVE_EVIDENCE_REGISTRY.csv \
+  source_grounded_evidence/adapter_outputs
+```
 
-This run does not validate a production ML predictor, final SHAP feature attribution, experimental synthesis success, completed DFT/MD/TST/NEB calculations, or autonomous-laboratory operation.
+Expected:
 
-## Suggested reviewer check
+```text
+status: PASS
+scoring_admitted_count: 0
+synthetic_imputation_count: 0
+derived_field_request_count: 0
+```
 
-After running `python3 run_all.py`, open `outputs/output_validation_report.md`. If the status is `PASS` and no errors are reported, the package has reproduced the demonstration-level manuscript-facing outputs.
+These checks establish package reproducibility and the no-scoring boundary. They do not validate experimental synthesis, production ML performance, completed DFT/MD or autonomous-laboratory operation.

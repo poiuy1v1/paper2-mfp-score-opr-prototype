@@ -1,0 +1,11 @@
+metric,value
+record_count,49
+source_count,9
+confirmed_monolith,31
+confirmed_gel_or_monolithic_intermediate,8
+powder_only_under_reported_conditions,8
+explicit_non_monolithic_or_failed_outcome,2
+ambiguous,0
+not_assessed,0
+scoring_admitted,0
+synthetic_imputation,0

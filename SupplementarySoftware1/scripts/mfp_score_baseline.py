@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Baseline MFP-Score prototype for Paper 2 v7.
+"""Transparent MFP-Score prototype for Supplementary Software 1.
 
 The MFP-Score here is a transparent expert-weighted logistic scoring function
 implemented on synthetic-curated demonstration data. It is intended to make the

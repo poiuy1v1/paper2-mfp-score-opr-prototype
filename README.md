@@ -1,80 +1,66 @@
-# Paper 2 Supplementary Software 1 v1.0.0: MFP-Score and OPR Workflow for monoMOF Discovery
+# MFP-Score, OPR, and source-grounded evidence workflow for monolithic MOF formation
 
-This repository is the GitHub-ready v1.0.0 release folder for the Paper 2 supplementary software package.
+This repository contains the MIT-licensed supplementary software and machine-readable evidence package for the manuscript:
 
-It contains a reviewer-runnable Python workflow for a synthetic-curated demonstration of:
+> **A Reproducible Software-Resource Workflow for AI-Guided Prioritization of Monolithic Metal-Organic Framework Formation**
 
-- MFP-Score candidate ranking;
-- OPR route generation;
-- capillary-risk heuristics;
-- feature-diagnostic outputs;
-- uncertainty reporting;
-- checksum and validation reporting.
+Release candidate: **v1.1.0**.
 
-## Scope and boundaries
+## Authors and correspondence
 
-This software is a **minimal reproducible prototype**. It does **not** claim:
+- Jinnan Wei
+- Andrew E. H. Wheatley (corresponding author; aehw2@cam.ac.uk)
 
-- validated MFP-Score accuracy;
-- validated F1/AUPRC/SHAP model performance;
-- experimental synthesis success;
-- completed DFT/MD/TST/NEB calculations;
-- autonomous-lab deployment;
-- industrial continuous-flow implementation.
+Affiliation: Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, UK.
+
+## Funding
+
+This work received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+## What is included
+
+1. **Synthetic-curated demonstration workflow**
+   - transparent MFP-Score baseline;
+   - hypothesis-generating OPR route generator;
+   - capillary-risk, uncertainty, ablation, sensitivity, manifest and checksum outputs.
+
+2. **Source-grounded descriptive evidence workflow**
+   - 49 condition-level records from nine primary studies;
+   - controlled outcome-status semantics and nullable schemas;
+   - descriptive source-coverage and condition-contrast tables;
+   - registry-to-model projection adapter with a hard no-scoring gate;
+   - neutral evidence workbook and validation reports.
 
 ## Quick start
-
-From the repository root:
 
 ```bash
 cd SupplementarySoftware1
 python3 run_all.py
-python3 validate_outputs.py
+python3 source_grounded_evidence/run_evidence_tables.py
+python3 source_grounded_evidence/scripts/registry_to_model_projection_adapter.py \
+  source_grounded_evidence/data/AUTHORITATIVE_EVIDENCE_REGISTRY.csv \
+  source_grounded_evidence/adapter_outputs
 ```
 
-Expected validation summary:
+Expected boundaries:
 
 ```text
-Validation status: PASS
-Errors: []
-Warnings: []
+legacy synthetic-curated validation: PASS
+source-grounded table generator: PASS
+source-grounded scoring admitted: 0
+synthetic imputation used: 0
 ```
 
-## Repository structure
+## Scientific claim boundary
 
-```text
-paper2-github/
-├── README.md
-├── LICENSE
-├── CITATION.cff
-├── .zenodo.json
-├── SupplementarySoftware1/
-├── manuscript/
-└── submission_materials/
-```
+The source-grounded registry is not a benchmark, gold set or training dataset. The v1.1.0 release does **not** generate source-grounded MFP scores, OPR rankings, classifier metrics, accuracy/F1/AUPRC/calibration results, or synthetic imputations.
 
-## Main software folder
+## Previous archived version
 
-See [`SupplementarySoftware1/README.md`](SupplementarySoftware1/README.md) and [`SupplementarySoftware1/REVIEWER_QUICKSTART.md`](SupplementarySoftware1/REVIEWER_QUICKSTART.md).
+The previous synthetic-curated-only release was v1.0.1, archived at Zenodo DOI [10.5281/zenodo.20452017](https://doi.org/10.5281/zenodo.20452017).
+
+The v1.1.0 release adds the source-grounded evidence extension. Its new version DOI must be minted by Zenodo after the GitHub release is published and must not be guessed or pre-filled.
 
 ## License
 
-MIT License. See [`LICENSE`](LICENSE).
-
-## Citation
-
-Repository URL and DOI are placeholders until the GitHub/Zenodo release is created. After Zenodo generates the versioned DOI, update:
-
-- `CITATION.cff`
-- `.zenodo.json`
-- `SupplementarySoftware1/CITATION.cff`
-- `SupplementarySoftware1/zenodo_metadata_draft.json`
-- manuscript Data/code availability statement
-
-## Release workflow
-
-1. Create a GitHub repository.
-2. Upload this folder.
-3. Create a GitHub release, recommended tag: `v1.0.0`.
-4. Archive the release on Zenodo.
-5. Use the **versioned DOI** in the manuscript.
+MIT License. See `LICENSE`.

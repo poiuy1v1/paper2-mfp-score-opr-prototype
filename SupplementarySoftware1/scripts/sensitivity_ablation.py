@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate lightweight ablation and sensitivity diagnostics for the Paper 2 prototype.
+"""Generate lightweight ablation and sensitivity diagnostics for the the accompanying manuscript prototype.
 
 These diagnostics are intended for software/resource validation. They are not SHAP,
 not a validated production model, and not evidence of experimental synthesis success.

@@ -1,11 +1,30 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the associated manuscript and archived software release."
-title: "Supplementary Software 1: MFP-Score and OPR Reproducibility Workflow for Monolithic MOF Formation"
+message: "If you use this software and evidence package, please cite the archived release associated with this repository version."
+title: "Supplementary Software 1: MFP-Score, OPR, and Source-Grounded Evidence Workflow for Monolithic MOF Formation"
 authors:
   - family-names: "Wei"
     given-names: "Jinnan"
-version: "v1.0.1"
-date-released: "2026-05-29"
+    affiliation: "Yusuf Hamied Department of Chemistry, University of Cambridge"
+  - family-names: "Wheatley"
+    given-names: "Andrew E. H."
+    affiliation: "Yusuf Hamied Department of Chemistry, University of Cambridge"
+    email: "aehw2@cam.ac.uk"
+version: "v1.1.0"
 license: "MIT"
 repository-code: "https://github.com/poiuy1v1/paper2-mfp-score-opr-prototype"
-abstract: "Reviewer-runnable demonstration workflow for synthetic-curated MFP-Score ranking and hypothesis-generating OPR route generation. The software license is MIT; the Zenodo DOI is intentionally omitted until Zenodo mints the archived release DOI."
+abstract: >-
+  MIT-licensed supplementary software and source-grounded evidence package for
+  monolithic MOF prioritization. The release contains the synthetic-curated
+  MFP-Score/OPR demonstration, a 49-record condition-level evidence registry,
+  descriptive manuscript-table generation, a nullable registry-to-model
+  projection adapter, checksums, and validation reports. The evidence layer is
+  descriptive and is explicitly excluded from MFP scoring, OPR ranking,
+  classifier training, performance metrics, and synthetic imputation.
+keywords:
+  - metal-organic frameworks
+  - monolithic MOF
+  - MFP-Score
+  - optimal processing route
+  - source-grounded evidence
+  - materials informatics
+  - reproducible workflow

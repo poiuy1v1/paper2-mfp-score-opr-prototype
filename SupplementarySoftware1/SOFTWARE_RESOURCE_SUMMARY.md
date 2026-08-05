@@ -1,24 +1,15 @@
-# Supplementary Software 1 - Software resource summary
+# Software resource summary
 
-This package supports the manuscript as a Digital Discovery-oriented software resource. Its purpose is to make the MFP-Score and OPR-ranking workflow transparent, inspectable, and re-runnable from supplied demonstration data.
+Release candidate: **v1.1.0**.
 
-## Core commands
+## Synthetic-curated demonstration
 
-```bash
-python run_all.py
-python validate_outputs.py
-```
+The legacy workflow remains reproducible and output-validated. It provides demonstration-level MFP-Score rankings, OPR suggestions, capillary-risk diagnostics, uncertainty labels, ablation/sensitivity summaries, manifests and checksums.
 
-## Outputs linked to the manuscript
+## Source-grounded evidence extension
 
-- `outputs/mfp_scores.csv` -> candidate MFP-Score ranking and Table 1.
-- `outputs/candidate_opr_table.csv` -> OPR summary and Table 2.
-- `outputs/feature_importance.csv` -> weight-based feature diagnostic, not SHAP.
-- `outputs/uncertainty_report.csv` -> uncertainty classes and disabled-claim boundaries.
-- `outputs/ablation_summary.csv` and `outputs/sensitivity_summary.csv` -> sanity-check diagnostics.
-- `outputs/outputs_manifest.json` and `outputs/checksums.json` -> output traceability.
-- `outputs/output_validation_report.json` -> validation status.
+The additive evidence extension contains 49 condition-level records from nine primary studies, descriptive source/outcome summaries, a manuscript-table generator, a nullable registry-to-model projection adapter and a neutral evidence workbook.
 
-## Boundary
+## Scoring boundary
 
-The package is a demonstration-level software resource. It is not a validated production model, not a real DFT/MD workflow, not an autonomous-lab system, and not experimental proof of any synthesis route.
+The evidence extension is descriptive only. It produces no source-grounded MFP scores, OPR rankings, classifier training, accuracy/F1/AUPRC/calibration metrics or synthetic imputations. All evidence records remain `scoring_admitted = false`.

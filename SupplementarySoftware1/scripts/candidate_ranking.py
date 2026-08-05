@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the full Paper 2 v7 MFP/OPR demonstration pipeline."""
+"""Run the Supplementary Software 1 MFP/OPR demonstration pipeline."""
 from __future__ import annotations
 
 import argparse

@@ -1,0 +1,9 @@
+﻿target_field,accepted_source_type,status,allowed_transformation,prohibited_substitution,rationale
+temperature_c,directly reported condition,conditionally_compatible,unit normalization only,Do not infer from general method if sample-specific temperature differs,Condition-state variable when explicitly tied to the record.
+drying_route,directly reported categorical condition,compatible,controlled vocabulary normalization,Do not collapse sequential drying/activation into one step,Direct processing variable.
+modulator_concentration_m,direct report or approved calculation from complete sample-specific quantities and final volume,hold_pending_derivation_policy,none in,No concentration inferred from partial recipe or nominal stock without final volume,Needs explicit derivation and audit trail.
+precursor_concentration_m,direct report or approved metal-precursor calculation,hold_pending_semantic_lock,none in except explicitly reported source concentration,"Do not mix metal, linker and total-solids concentrations",Target semantics not yet locked.
+pore_radius_nm,synthesis-state descriptor only if measurement timing and definition are compatible,not_compatible_current_sources,none,Do not use post-drying BET/BJH/DFT pore size as a synthesis-state feature,Current reports mostly provide post-synthesis porosity.
+surface_tension_mN_m,sample-specific source report or approved external lookup with temperature/composition,external_descriptor_not_approved,none,Do not insert handbook solvent values as source-reported evidence,Mixtures and temperature make generic constants unsafe.
+contact_angle_deg,"sample-specific, defined surface and liquid",not_compatible_for_synthesis_state,none,Do not use post-synthesis water contact angle as a synthesis descriptor,Measurement occurs after monolith formation.
+framework_stability_z,formally defined and validated metric,undefined_hold,none,Do not invent or normalize a stability score,No locked definition or calibration.

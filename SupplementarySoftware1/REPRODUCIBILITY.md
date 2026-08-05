@@ -1,54 +1,29 @@
-# Reproducibility notes
+# Reproducibility notes for v1.1.0
 
-## Minimal tested command
+## Commands
 
-See also `REVIEWER_QUICKSTART.md` for a compact referee-facing version of these instructions.
+From `SupplementarySoftware1/`:
 
 ```bash
 python3 run_all.py
+python3 source_grounded_evidence/run_evidence_tables.py
+python3 source_grounded_evidence/scripts/registry_to_model_projection_adapter.py \
+  source_grounded_evidence/data/AUTHORITATIVE_EVIDENCE_REGISTRY.csv \
+  source_grounded_evidence/adapter_outputs
 ```
 
-The command executes:
+## Reproduced outputs
 
-1. `scripts/candidate_ranking.py`
-2. `scripts/sensitivity_ablation.py`
-3. `validate_outputs.py`
+The first command reproduces the synthetic-curated demonstration outputs and validation reports. The second reproduces descriptive source-coverage and condition-contrast tables. The third validates the authoritative registry and writes projection-readiness blockers without calling the scorer.
 
-The validator writes `outputs/output_validation_report.json`, `outputs/outputs_manifest.json`, and `outputs/checksums.json`.
+## Required hard stops
 
-## Environment
+- `scoring_admitted_count = 0`
+- `synthetic_imputation_count = 0`
+- no source-grounded `mfp_scores.csv`
+- no source-grounded `candidate_opr_table.csv`
+- no classifier metrics
 
-The core scripts use only the Python standard library. Optional notebook inspection or plotting can use the dependencies listed in `requirements.txt` or `environment.yml`.
+## Archive status
 
-## Expected validation status
-
-The expected validation status is:
-
-```text
-PASS
-```
-
-A failed validation means at least one of the following occurred:
-
-- an output file is missing;
-- an expected column is absent;
-- MFP scores are outside the [0, 1] range;
-- candidate sets differ across central output files;
-- JSON output is invalid.
-
-## What is reproducible here
-
-The package reproduces the manuscript-facing demonstration workflow:
-
-```text
-synthetic-curated input tables -> MFP scores -> capillary risk -> OPR table -> uncertainty report -> ablation/sensitivity diagnostics -> validation manifests
-```
-
-## What is not claimed
-
-This package does not reproduce a validated production predictor, experimental synthesis results, DFT/MD outputs, or autonomous laboratory control logs. It is a transparent software/resource baseline for reviewer inspection and future curated-data expansion.
-
-
-## Final archive preparation
-
-Before formal journal submission, archive the exact software release in a persistent repository, add the final repository DOI to the manuscript Data and code availability statement, and keep the confirmed MIT License files in the archived release.
+The previous v1.0.1 release is archived at DOI `10.5281/zenodo.20452017`. The v1.1.0 source-grounded evidence extension is prepared for a new GitHub release and new Zenodo version DOI. The new DOI is intentionally absent from this release candidate metadata and must be inserted only after Zenodo mints it.

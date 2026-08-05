@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "descriptive manuscript-table generation only",
+  "registry_rows": 49,
+  "primary_sources": 9,
+  "selected_condition_contrasts": 5,
+  "mfp_scores_generated": 0,
+  "opr_rankings_generated": 0,
+  "classifier_training_performed": false,
+  "synthetic_imputation_used": false,
+  "scoring_admitted": false,
+  "outputs": [
+    "source_coverage_table.tex",
+    "condition_contrasts_table.tex",
+    "manuscript_registry_summary.csv",
+    "selected_condition_contrasts.csv"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "type": "object",
+  "required": [
+    "record_id",
+    "layer_A_valid",
+    "condition_unit_valid",
+    "required_field_coverage",
+    "projection_status",
+    "scoring_admitted"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "layer_A_valid": {
+      "type": "boolean"
+    },
+    "condition_unit_valid": {
+      "type": "boolean"
+    },
+    "required_field_coverage": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "missing_reported_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "derived_field_requested": {
+      "type": "boolean"
+    },
+    "derived_field_approved": {
+      "type": "boolean"
+    },
+    "imputation_used": {
+      "type": "string",
+      "enum": [
+        "none"
+      ]
+    },
+    "projection_status": {
+      "type": "string"
+    },
+    "projection_blockers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "scoring_admitted": {
+      "type": "boolean"
+    }
+  }
+}

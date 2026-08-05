@@ -1,0 +1,24 @@
+﻿drying_route,confirmed_monolith,confirmed_gel_or_monolithic_intermediate,powder_only_under_reported_conditions,explicit_non_monolithic_or_failed_outcome,ambiguous,not_assessed,total_records
+"25 C, 30% RH overnight; then 100 C vacuum activation for 12 h",1,0,0,0,0,0,1
+air/oven drying,5,0,0,0,0,0,5
+ambient air drying,4,0,0,0,0,0,4
+ambient drying,1,0,2,0,0,0,3
+ambient drying then vacuum activation,1,0,0,0,0,0,1
+ambient slow drying,2,0,0,0,0,0,2
+ambient slow drying in mould,1,0,0,0,0,0,1
+controlled drying,2,0,0,0,0,0,2
+drying above mild range,0,0,1,0,0,0,1
+drying-temperature screen,0,0,0,1,0,0,1
+ethanol-exchanged gel air-dried at 200 C for 2 h to form xerogel,3,0,0,0,0,0,3
+heat and vacuum activation,1,0,0,0,0,0,1
+high-temperature drying,0,0,1,0,0,0,1
+mild oven/ambient drying,3,0,0,0,0,0,3
+not_applicable,0,8,1,0,0,0,9
+oil-drop shaping followed by air annealing,1,0,0,0,0,0,1
+oven drying,0,0,0,1,0,0,1
+room-temperature drying under fume cupboard,1,0,0,0,0,0,1
+room-temperature drying under fume cupboard as in stated same procedure,1,0,0,0,0,0,1
+slow ambient drying,3,0,0,0,0,0,3
+supercritical CO2 extraction followed by staged vacuum evacuation,1,0,0,0,0,0,1
+vacuum drying at room temperature,0,0,2,0,0,0,2
+vacuum oven drying,0,0,1,0,0,0,1

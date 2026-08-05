@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate Paper 2 Supplementary Software outputs.
+"""Validate Supplementary Software for the accompanying manuscript outputs.
 
 The checks here support Digital Discovery / JCIM-style reproducibility: files must
 exist, required columns must be present, row counts must match, scores must be

@@ -1,0 +1,13 @@
+candidate_id,global_heuristic_rank,priority_tier,drying_risk,evidence_role,registry_record_count,interpretation_boundary
+NU-1000,1,High,low,retrospective_known_monolith_control,2,retrospective software sanity-check; not a new monolith discovery claim
+UiO-67,2,High,low,retrospective_known_monolith_control,2,retrospective software sanity-check; not a new monolith discovery claim
+MOF-808,3,High,low,retrospective_known_monolith_control,2,retrospective software sanity-check; not a new monolith discovery claim
+MOF-801,4,High,low,retrospective_known_monolith_control,3,retrospective software sanity-check; not a new monolith discovery claim
+PCN-222,5,High,low,registry_unconfirmed_prospective_candidate,0,not represented as a confirmed monolith in the current 49-record registry; not an assertion of absence from all literature
+HKUST-1,6,High,low,retrospective_known_monolith_control,9,retrospective software sanity-check; not a new monolith discovery claim
+MIL-100(Fe),7,High,low,registry_unconfirmed_prospective_candidate,0,not represented as a confirmed monolith in the current 49-record registry; not an assertion of absence from all literature
+ZIF-8,8,High,low,retrospective_known_monolith_control,11,retrospective software sanity-check; not a new monolith discovery claim
+Mg-MOF-74,9,High,medium,registry_unconfirmed_prospective_candidate,0,not represented as a confirmed monolith in the current 49-record registry; not an assertion of absence from all literature
+MIL-101(Cr),10,High,low,registry_unconfirmed_prospective_candidate,0,not represented as a confirmed monolith in the current 49-record registry; not an assertion of absence from all literature
+MOF-5,11,Medium,low,registry_unconfirmed_prospective_candidate,0,not represented as a confirmed monolith in the current 49-record registry; not an assertion of absence from all literature
+CAU-10,12,Medium,high,registry_unconfirmed_prospective_candidate,0,not represented as a confirmed monolith in the current 49-record registry; not an assertion of absence from all literature

@@ -1,4 +1,4 @@
-# Minimal requirements for Paper 2 Supplementary Software 1.
+# Minimal requirements for Supplementary Software 1 for the accompanying manuscript.
 # The core pipeline uses only the Python standard library; these packages support
 # optional notebook inspection, plotting, and future extension.
 numpy>=1.24
