@@ -36,5 +36,5 @@
       "resource_type": "software"
     }
   ],
-  "notes": "Release candidate v1.1.0 with authorship and funding status locked. Previous archived software-only version: 10.5281/zenodo.20452017. A new version DOI must be minted by Zenodo after the GitHub release is published. Source-grounded scoring remains disabled. No specific grant funding was declared for this work."
+  "notes": "Version v1.1.0 adds a 49-record human-verified source-grounded evidence extension to the synthetic-curated demonstration workflow. Previous software-only version: 10.5281/zenodo.20452017. Source-grounded scoring remains disabled, and no specific grant funding was declared. The version-specific DOI is assigned by Zenodo from this GitHub release."
 }

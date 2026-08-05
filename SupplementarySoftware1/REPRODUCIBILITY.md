@@ -24,6 +24,6 @@ The first command reproduces the synthetic-curated demonstration outputs and val
 - no source-grounded `candidate_opr_table.csv`
 - no classifier metrics
 
-## Archive status
+## Archive information
 
-The previous v1.0.1 release is archived at DOI `10.5281/zenodo.20452017`. The v1.1.0 source-grounded evidence extension is prepared for a new GitHub release and new Zenodo version DOI. The new DOI is intentionally absent from this release candidate metadata and must be inserted only after Zenodo mints it.
+The previous v1.0.1 release is archived at DOI `10.5281/zenodo.20452017`. Version v1.1.0 adds the source-grounded evidence extension. Its version-specific DOI is assigned by Zenodo from the GitHub release and is available from the release-linked Zenodo record.

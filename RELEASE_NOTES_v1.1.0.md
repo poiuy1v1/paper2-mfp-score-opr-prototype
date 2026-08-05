@@ -39,3 +39,7 @@ v1.0.1 was archived at Zenodo DOI `10.5281/zenodo.20452017`.
 ## DOI status
 
 The v1.1.0 DOI is intentionally pending until the GitHub release is processed by Zenodo.
+
+## Public archive hygiene
+
+The v1.1.0 tagged source snapshot excludes obsolete v1.0.0/v18 release-assembly files, draft DOI placeholders, internal QC logs and stale package indexes. Current inventory, manifest and checksums are generated from the final tracked tree.

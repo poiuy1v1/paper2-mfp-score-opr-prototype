@@ -1,9 +1,0 @@
-# Add these patterns to the existing .gitignore if not already present
-__pycache__/
-*.py[cod]
-*.log
-*.tmp
-.DS_Store
-paper2-github_runs/
-v*/
-*.zip

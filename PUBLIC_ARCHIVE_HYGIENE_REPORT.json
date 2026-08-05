@@ -1,0 +1,56 @@
+﻿{
+    "scan_scope":  "entire repository tree excluding .git, __pycache__, *.pyc, *.pyo, _release_input, _release_work",
+    "retained_justified_hits":  [
+                                    {
+                                        "path":  "SupplementarySoftware1/source_grounded_evidence/data/HUMAN_VERIFICATION_CHANGELOG.csv",
+                                        "term":  "pending_user_or_coauthor_confirmation",
+                                        "justification":  "historical prior status retained in frozen change-control record"
+                                    }
+                                ],
+    "forbidden_hits":  [
+
+                       ],
+    "deleted_obsolete_paths":  [
+                                   "audit/",
+                                   "manuscript/",
+                                   "submission_materials/",
+                                   "FILE_TREE.txt",
+                                   "MANIFEST_FOR_REVIEWERS.md",
+                                   "PACKAGE_CONTENTS.md",
+                                   "PUSH_TO_GITHUB_FROM_D_DRIVE.md",
+                                   "README_v1.0.0_package_note.md",
+                                   "RELEASE_NOTES_v1.0.0.md",
+                                   "SOFTWARE_FILE_INDEX.md",
+                                   "ZIP_README_FOR_REVIEWERS.md",
+                                   "DELETE_PATHS_v29A.txt",
+                                   "GITIGNORE_ADDITIONS_v29A.txt",
+                                   "validate_v29A_2_release_candidate.py",
+                                   "SupplementarySoftware1/RELEASE_CANDIDATE_STATUS.md",
+                                   "SupplementarySoftware1/outputs/release_v1.0.0_run_all.log",
+                                   "SupplementarySoftware1/outputs/release_v1.0.0_validate_outputs.log",
+                                   "SupplementarySoftware1/outputs/run_all_stdout.txt",
+                                   "SupplementarySoftware1/outputs/run_all_stderr.txt",
+                                   "SupplementarySoftware1/outputs/validate_stdout.txt",
+                                   "SupplementarySoftware1/outputs/validate_stderr.txt"
+                               ],
+    "final_status":  "PASS",
+    "scope":  "v1.1.0 final release-state, archive-hygiene, human-verification and no-scoring validation",
+    "status":  "PASS",
+    "errors":  [
+
+               ],
+    "warnings":  [
+
+                 ],
+    "retained_hits":  [
+                          {
+                              "path":  "SupplementarySoftware1/source_grounded_evidence/data/HUMAN_VERIFICATION_CHANGELOG.csv",
+                              "term":  "pending_user_or_coauthor_confirmation",
+                              "justification":  "historical prior status retained in frozen change-control record"
+                          }
+                      ],
+    "human_verified_count":  49,
+    "scoring_admitted":  false,
+    "synthetic_imputation_used":  false,
+    "release_action_performed":  false
+}

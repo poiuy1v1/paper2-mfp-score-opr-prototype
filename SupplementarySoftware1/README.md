@@ -2,9 +2,9 @@
 
 This package supports the manuscript **A Reproducible Software-Resource Workflow for AI-Guided Prioritization of Monolithic Metal-Organic Framework Formation**.
 
-The v1.1.0 release candidate contains two explicitly separated workflows:
+Version v1.1.0 contains two explicitly separated workflows:
 
-1. the archived synthetic-curated MFP-Score/OPR demonstration; and
+1. the synthetic-curated MFP-Score/OPR demonstration; and
 2. a source-grounded descriptive evidence workflow that generates manuscript tables and projection-readiness outputs without invoking the scorer.
 
 ## Scope boundary
@@ -50,15 +50,16 @@ scoring_admitted_count = 0
 - `source_grounded_evidence/adapter_outputs/`: projection candidates, blockers and adapter validation.
 - `REVIEWER_QUICKSTART.md`: compact reproduction guide.
 - `REPRODUCIBILITY.md`: detailed scope and validation notes.
+- `RELEASE_STATUS.md`: stable v1.1.0 release boundaries.
 - `LICENSE`: MIT License.
 
-## Version and DOI status
+## Version and DOI information
 
 - Previous archived version: v1.0.1, DOI `10.5281/zenodo.20452017`.
-- Current release candidate: v1.1.0.
-- New version DOI: **pending GitHub release and Zenodo processing**.
+- Current version: v1.1.0.
+- The v1.1.0 version DOI is assigned by Zenodo from the GitHub release. Consult the release-linked Zenodo record for the minted DOI.
 
-Do not substitute the v1.0.1 DOI for the new v1.1.0 DOI.
+Do not substitute the v1.0.1 DOI for the v1.1.0 DOI.
 
 ## Authors and funding
 

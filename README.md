@@ -4,7 +4,7 @@ This repository contains the MIT-licensed supplementary software and machine-rea
 
 > **A Reproducible Software-Resource Workflow for AI-Guided Prioritization of Monolithic Metal-Organic Framework Formation**
 
-Release candidate: **v1.1.0**.
+Release: **v1.1.0**.
 
 ## Authors and correspondence
 
@@ -25,7 +25,7 @@ This work received no specific grant from any funding agency in the public, comm
    - capillary-risk, uncertainty, ablation, sensitivity, manifest and checksum outputs.
 
 2. **Source-grounded descriptive evidence workflow**
-   - 49 condition-level records from nine primary studies;
+   - 49 human-verified condition-level records from nine primary studies;
    - controlled outcome-status semantics and nullable schemas;
    - descriptive source-coverage and condition-contrast tables;
    - registry-to-model projection adapter with a hard no-scoring gate;
@@ -53,13 +53,20 @@ synthetic imputation used: 0
 
 ## Scientific claim boundary
 
-The source-grounded registry is not a benchmark, gold set or training dataset. The v1.1.0 release does **not** generate source-grounded MFP scores, OPR rankings, classifier metrics, accuracy/F1/AUPRC/calibration results, or synthetic imputations.
+The source-grounded registry is not a benchmark, gold set or training dataset. Version v1.1.0 does **not** generate source-grounded MFP scores, OPR rankings, classifier metrics, accuracy/F1/AUPRC/calibration results, or synthetic imputations.
 
-## Previous archived version
+## Archive and citation
 
 The previous synthetic-curated-only release was v1.0.1, archived at Zenodo DOI [10.5281/zenodo.20452017](https://doi.org/10.5281/zenodo.20452017).
 
-The v1.1.0 release adds the source-grounded evidence extension. Its new version DOI must be minted by Zenodo after the GitHub release is published and must not be guessed or pre-filled.
+The version-specific DOI for v1.1.0 is assigned by Zenodo when this GitHub release is processed. Consult the Zenodo record linked from the GitHub release for the minted DOI; do not substitute the v1.0.1 DOI.
+
+## Release inventory
+
+- `REPOSITORY_MANIFEST_v1.1.0.md`: current public archive contents and scope.
+- `REPOSITORY_FILE_INVENTORY_v1.1.0.csv`: machine-readable release inventory.
+- `SHA256SUMS_v1.1.0.txt`: SHA-256 checksums for release files.
+- `validate_v29A_2_1_final_release_state.py`: final release-state and archive-hygiene validator.
 
 ## License
 

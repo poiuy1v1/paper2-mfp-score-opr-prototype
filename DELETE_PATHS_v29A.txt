@@ -1,3 +1,0 @@
-# Obsolete paths to remove from the local repository if present
-SupplementarySoftware1/EVIDENCE_EXTENSION_RELEASE_STATUS.md
-SupplementarySoftware1/zenodo_metadata_draft.json
