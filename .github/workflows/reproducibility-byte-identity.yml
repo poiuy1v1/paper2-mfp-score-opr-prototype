@@ -1,0 +1,97 @@
+name: Maintenance candidate byte identity
+
+# Each supported OS proves exact output identity against the same immutable
+# expected-hash authority. No cross-job artifact transfer is required.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-platform:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.14'
+
+      - name: Regenerate and verify exact frozen output identity
+        shell: python
+        run: |
+          import hashlib
+          import importlib.util
+          import json
+          import subprocess
+          import sys
+          from pathlib import Path
+
+          repo = Path.cwd()
+          root = repo / 'SupplementarySoftware1'
+          authority = root / 'expected/release_output_identity_v1.1.1.json'
+          before = authority.read_bytes()
+
+          spec = importlib.util.spec_from_file_location(
+              'validator',
+              root / 'validate_outputs.py',
+          )
+          validator = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(validator)
+          expected, expected_sha256 = validator.load_expected()
+
+          if len(expected) != 10:
+              raise RuntimeError('Expected authority must identify exactly ten outputs')
+
+          for name in expected:
+              (root / 'outputs' / name).unlink(missing_ok=True)
+
+          subprocess.run(
+              [sys.executable, 'run_all.py'],
+              cwd=root,
+              check=True,
+          )
+          subprocess.run(
+              [sys.executable, 'validate_outputs.py'],
+              cwd=root,
+              check=True,
+          )
+
+          if authority.read_bytes() != before:
+              raise RuntimeError('Immutable expected authority changed during validation')
+
+          observed = {}
+          for name, frozen_identity in expected.items():
+              raw = (root / 'outputs' / name).read_bytes()
+              raw.decode('utf-8')
+              if b'\r' in raw or raw.startswith(b'\xef\xbb\xbf'):
+                  raise RuntimeError(f'Noncanonical output bytes: {name}')
+              current = {
+                  'bytes': len(raw),
+                  'sha256': hashlib.sha256(raw).hexdigest(),
+              }
+              if current != frozen_identity:
+                  raise RuntimeError(f'Frozen expected identity mismatch: {name}')
+              observed[name] = current
+
+          subprocess.run(
+              [sys.executable, 'generate_release_inventory.py', '--check'],
+              cwd=repo,
+              check=True,
+          )
+
+          print(json.dumps({
+              'platform': '${{ runner.os }}',
+              'expected_identity_sha256': expected_sha256,
+              'outputs': observed,
+              'result': 'PASS_EXACT_10_OF_10',
+          }, indent=2))

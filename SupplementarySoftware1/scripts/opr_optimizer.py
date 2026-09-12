@@ -77,7 +77,7 @@ def main() -> None:
     rows = make_opr_rows(read_csv(args.candidates), read_csv(args.scores))
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
     with open(args.output, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()), lineterminator="\n")
         writer.writeheader(); writer.writerows(rows)
     print(f'Wrote {args.output} ({len(rows)} rows)')
 

@@ -30,7 +30,7 @@ def load_csv(path: Path) -> List[Dict[str, str]]:
 def write_csv(rows: List[Dict[str, object]], path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()), lineterminator="\n")
         writer.writeheader(); writer.writerows(rows)
 
 
@@ -120,7 +120,7 @@ def main() -> None:
         'sensitivity_scenarios': [x[0] for x in sensitivity_scenarios],
         'disabled_claims': ['validated feature attribution', 'SHAP percentages', 'experimental success', 'production predictor accuracy'],
     }
-    (out / 'software_resource_diagnostics.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')
+    (out / 'software_resource_diagnostics.json').write_bytes(json.dumps(summary, indent=2).encode('utf-8'))
     print(json.dumps(summary, indent=2))
 
 

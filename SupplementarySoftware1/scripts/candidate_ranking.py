@@ -47,10 +47,10 @@ def main() -> None:
             'disabled_claims_until_validated': 'accuracy, SHAP percentages, final OPR, synthesis success',
         })
     with open(out/'uncertainty_report.csv','w',newline='',encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()), lineterminator="\n")
         writer.writeheader(); writer.writerows(rows)
     summary = {'pipeline_scope':'synthetic-curated demonstration only', 'outputs': ['mfp_scores.csv','capillary_risk.csv','candidate_opr_table.csv','feature_importance.csv','calibration_summary.json','uncertainty_report.csv'], 'num_candidates': len(rows)}
-    (out/'pipeline_summary.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')
+    (out/'pipeline_summary.json').write_bytes(json.dumps(summary, indent=2).encode('utf-8'))
     print(json.dumps(summary, indent=2))
 
 

@@ -1,12 +1,16 @@
 {
-  "mfp_scores.csv": "9cdbc5669e21df6114da97b8b77ddd0c2f2e3eae6cab446c26ee7bef9826b361",
-  "capillary_risk.csv": "94add24cb511783d8c60010858f389b9cadaabcaa89f13a55646e4313172c5bc",
-  "candidate_opr_table.csv": "2de7f6e8586c012bdb300d242200f8a016084e6328c172af4a2db264c1a80b8d",
-  "feature_importance.csv": "d4ac4a521c5b3a68107ee39e957712549cabbf7e75409f7108e5534d6197528e",
-  "uncertainty_report.csv": "6f9d62b46e9428a3bf5841f2cb1ee69574d34da63b6f47db3fb6d5cb336ffcf2",
-  "ablation_summary.csv": "d7598b49d07b85d264d7f5042fa7e7fed7b51b0dfc6cd118e51d9b049ffc988a",
-  "sensitivity_summary.csv": "9b9a37f518cfcd624d38da36aee055c340997139f66cfaa531c20063b2f949fb",
-  "calibration_summary.json": "2f9d5bc426558eaa069ee06ae24bbc0d7b0dcc7cba577fd21527b6e166f41368",
-  "pipeline_summary.json": "b1324d8eb0b6d8b1f77f730a7b88f608f6f46ca621ec0830214b6ca13b01bc21",
-  "software_resource_diagnostics.json": "0ede9f1c8b0fc53514839293c1f5739c6854dd980ed95fee083acda79a214fb3"
+  "authority": "generated-current",
+  "not_expected_authority": true,
+  "outputs": {
+    "mfp_scores.csv": "b5083342866b901a0a412d2a7f35c70397aacdfae94473ae9245579c4dc11f17",
+    "capillary_risk.csv": "ad2f7c0b77f795d4ae07ee56d9fe35e69519091a174b2ebfbb64d164d07e59e7",
+    "candidate_opr_table.csv": "6a63da2383ac2e005310a0b69dda171012d17732b09d7c327ee32e07dc4c9a5a",
+    "feature_importance.csv": "4862d51812a2208ed2ab72b74bc826e6e86992b8db128410f2db7b4a14540fa8",
+    "uncertainty_report.csv": "501ef956e188193000055d485183580a36d262fd44492a781481ac5ff30a3b87",
+    "ablation_summary.csv": "30c6f4b1ccb062cd558755154101b9d47602c12dc353a22d9dfa4a842d06bc66",
+    "sensitivity_summary.csv": "8c029b453837bf5ba391e27675673d1af554f45e5a2a2931e44b2664cd53bff3",
+    "calibration_summary.json": "1a67529951d4fba514fc9415d7bb3b977a8ca4a042bb0ad2644ceaf18845df7c",
+    "pipeline_summary.json": "79cef2ee0d6a8ba3a1a0b92648c8a69aa58284d01c8ef73a6dc94ad2443cc9c6",
+    "software_resource_diagnostics.json": "7fad5369167822c4503cafe7708465c3fe69a372598418292b9f6a483422ecb1"
+  }
 }

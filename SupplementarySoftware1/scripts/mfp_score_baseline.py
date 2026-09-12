@@ -110,7 +110,7 @@ def evaluate_seed(seed_rows: List[Dict[str, str]], threshold: float = 0.50) -> D
 def write_dict_csv(rows: List[Dict[str, object]], path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()), lineterminator="\n")
         writer.writeheader(); writer.writerows(rows)
 
 
@@ -149,7 +149,7 @@ def main() -> None:
         fi.append({'feature': k, 'absolute_weight': v, 'relative_importance_demo': round(abs(v)/total, 3), 'interpretation': 'expert-weighted prototype diagnostic, not SHAP'})
     write_dict_csv(fi, output_dir/'feature_importance.csv')
     summary = evaluate_seed(seed)
-    (output_dir/'calibration_summary.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')
+    (output_dir/'calibration_summary.json').write_bytes(json.dumps(summary, indent=2).encode('utf-8'))
     print(json.dumps(summary, indent=2))
 
 

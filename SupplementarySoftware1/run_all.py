@@ -36,7 +36,7 @@ def main() -> None:
             'output_validation_report.json',
         ],
     }
-    (outputs / 'run_all_summary.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')
+    (outputs / 'run_all_summary.json').write_bytes(json.dumps(summary, indent=2).encode('utf-8'))
     print(json.dumps(summary, indent=2))
 
 

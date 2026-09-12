@@ -60,7 +60,7 @@ def main() -> None:
     out = calculate_rows(rows)
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
     with open(args.output, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=list(out[0].keys()))
+        writer = csv.DictWriter(f, fieldnames=list(out[0].keys()), lineterminator="\n")
         writer.writeheader(); writer.writerows(out)
     print(f'Wrote {args.output} ({len(out)} rows)')
 
