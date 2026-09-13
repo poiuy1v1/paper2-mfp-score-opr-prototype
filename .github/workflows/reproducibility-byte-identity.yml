@@ -3,6 +3,9 @@ name: Maintenance candidate byte identity
 # Each supported OS proves exact output identity against the same immutable
 # expected-hash authority. No cross-job artifact transfer is required.
 on:
+  push:
+    branches:
+      - 'maintenance/v1.1.1-checksum-byte-identity'
   workflow_dispatch:
 
 permissions:
